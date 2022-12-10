@@ -35,7 +35,6 @@ a {
   text-decoration: none;
 }
 .contact,
-.menu,
 .menu-list-item,
 .our-adv-list-item,
 .what-we-do-item,
@@ -72,6 +71,7 @@ a {
   letter-spacing: 0.03em;
   line-height: 31px;
   text-decoration: none;
+  margin-right: 94px;
 }
 .logo-head {
   color: var(--logo-clear-black);
@@ -119,6 +119,7 @@ a {
   align-items: center;
   text-align: center;
   padding: 10px 41px 10px 42px;
+  margin-top: 30px;
 }
 .hero-txt {
   color: var(--bg-color);
@@ -130,9 +131,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   text-align: center;
-  display: block;
-  justify-content: center;
-  margin: 106px 237px 40px;
+  padding: 0px 237px;
 }
 .what-we-do {
   list-style-type: none;
@@ -261,8 +260,8 @@ a {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 9px;
-  margin-bottom: 60px;
+  /* gap: 9px; */
+  margin-top: 20px;
 }
 .footer-link {
   color: var(--bg-color);
@@ -279,33 +278,28 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px 15px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
-.container-nav-and-fot {
+.site-nav {
+  border-bottom: 1px solid var(--border-color);
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px 15px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.site-nav {
-  border-bottom: 1px solid var(--border-color);
-}
+
 .nav-logo-flex {
   display: flex;
   align-items: center;
-  margin: 24px 0px;
+  padding: 24px 0px;
 }
 .nav-menu-flex {
   display: flex;
-  margin: 32px 93px;
+  justify-content: space-between;
 }
 .menu-list-item:first-of-type {
   margin-right: 46px;
@@ -318,7 +312,6 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin: 32px 12px 32px 278px;
 }
 .contact-link:first-of-type {
   margin-right: 50px;
@@ -328,12 +321,13 @@ a {
 /* model blokowy - hero - start */
 .content-hero {
   background-color: var(--bg-color-scd);
+  padding: 200px 0px;
 }
 
 .hero-btn-flex {
   display: flex;
-  justify-content: center;
-  margin-bottom: 106px;
+  flex-direction: column;
+  align-items: center;
 }
 /* model blokowy - hero - end */
 
@@ -341,7 +335,6 @@ a {
 .our-adv-list {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
 }
 .our-adv-list-item {
   display: flex;
@@ -355,13 +348,11 @@ a {
   display: flex;
   gap: 30px;
   margin-top: 50px;
+  padding-bottom: 94px;
 }
 /* model blokowy - what-we-do - end */
 
 /* model blokowy - team - start */
-.wrapper-team {
-  background-color: var(--bf-color-team);
-}
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -394,8 +385,8 @@ a {
 .footer-background {
   background-color: var(--bg-color-scd);
 }
-.logo-footer-flex {
-  margin-top: 60px;
-  margin-bottom: 20px;
+.footer-box {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 /* model blokowy - footer - end */
