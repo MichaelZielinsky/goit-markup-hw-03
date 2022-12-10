@@ -279,8 +279,10 @@ a {
   margin: 0 auto;
   padding: 0px 15px;
 }
-.site-nav {
+.site-nav-line {
   border-bottom: 1px solid var(--border-color);
+}
+.site-nav-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px 15px;
